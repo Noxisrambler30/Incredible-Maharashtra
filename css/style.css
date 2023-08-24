@@ -1302,7 +1302,7 @@ body {
 
 /*Header*/
 
-@media screen and ( max-width: 500px) and (min-width: 200px) {
+@media screen and ( max-width: 600px) and (min-width: 100px) {
 	/* HAMBURGER */
 
 	.head{
@@ -1667,7 +1667,7 @@ body {
 	position: relative;
   }
 
-  @media only screen and (max-width: 500px) and (min-width: 200px){
+ @media screen and ( max-width: 600px) and (min-width: 100px) {
 	.container {
 		position: relative;
 		overflow: hidden;
