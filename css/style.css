@@ -1302,7 +1302,7 @@ body {
 
 /*Header*/
 
-@media screen and ( max-width: 600px) and (min-width: 100px) {
+@media screen and ( max-width: 500px) and (min-width: 200px) {
 	/* HAMBURGER */
 
 	.head{
@@ -1667,7 +1667,7 @@ body {
 	position: relative;
   }
 
- @media screen and ( max-width: 600px) and (min-width: 100px) {
+  @media only screen and (max-width: 500px) and (min-width: 200px){
 	.container {
 		position: relative;
 		overflow: hidden;
@@ -1675,16 +1675,16 @@ body {
 	  }
 	
 	.inner img{
-		width: 13rem;
-		height: 13rem;
+		width: 31rem;
+		height: 33rem;
 		margin-left: -50%;
 		margin-top: -95%;
 	}
 
 	.slider {
 		display: flex;
-		width: 100%;
-		height: 10rem;
+		width: 500%;
+		height: 50rem;
 		transition: all 0.25s ease-in;
 		transform: translateX(0);
 		margin-top: 20%;
